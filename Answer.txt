@@ -1,0 +1,9 @@
+Result 1: b / a performs integer division. (12/5), yielding 2.
+
+Result 2: b % a modulo operator, which gives the remainder of the integer division (12/5), yielding 2.
+
+Result 3: x / y involves double-precision floating-point division (10.0/3.0), resulting in an approximation of 3.33333.
+
+Result 4: (a+b+c) is evaluated first as integer addition (5 + 12 + 2 = 19). The subsequent division 19 / y involves integer to double promotion, yielding the floating- point result of 6.33333.
+
+Result 5: static_cast<double>(b) /a explicitly converts b to a double before division, forcing a floating-point division (12.0 / 5) which yields 2.4. 
